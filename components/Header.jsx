@@ -52,7 +52,7 @@ const Header = ({isDarkMode,setIsDarkMode}) => {
             initial={{y: 30, opacity:0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay:1.2}}
-            href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-darkPartial flex items-center gap-2 dark:border-lightPartial dark:text-lightText'>My Resume <Image src={isDarkMode ? assets.download_icon_dark : assets.download_icon} alt='' className='w-4'/></motion.a>
+            href="/ManasVerma_Resume.pdf" download className='px-10 py-3 border rounded-full border-darkPartial flex items-center gap-2 dark:border-lightPartial dark:text-lightText'>My Resume <Image src={isDarkMode ? assets.download_icon_dark : assets.download_icon} alt='' className='w-4'/></motion.a>
           </div>
       </div>       
   )
