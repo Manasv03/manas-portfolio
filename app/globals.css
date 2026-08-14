@@ -5,3 +5,8 @@
 *{
   font-family: Lato, sans-serif;
 }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%       { opacity: 0.9; transform: scale(1.5); }
+}
